@@ -50,7 +50,7 @@ class SideMenuContent extends Component {
         scrollsToTop={false}>
         <View style={styles.headerContainer}>
           <Text style={styles.headerText}>
-            SideMenu header here
+            Menu Title
           </Text>
         </View>
         <View style={styles.menusContainer}>
