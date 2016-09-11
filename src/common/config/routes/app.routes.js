@@ -8,13 +8,13 @@ const routes = [{
     iconSize: 22,
   },
   navbar: {
-    navBarTitle: 'TodayShifts',
+    navBarTitle: 'Today Shifts',
     navBarLeftIconName: 'ios-menu',
     navBarLeftIconSize: 32,
   }
 }, {
   id: 2,
-  refView: 'PreviousShifts',
+  refView: 'PreviousShiftsView',
   sidemenu: {
     sideMenuButtonText: 'Previous Shifts',
     iconType: 'ionicons',

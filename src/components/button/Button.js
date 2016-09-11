@@ -29,9 +29,9 @@ class Button extends Component {
 }
 
 Button.propTypes = {
-  style       : React.PropTypes.any,
-  children    : React.PropTypes.node.isRequired,
-  onPress     : React.PropTypes.func.isRequired
+  style: React.PropTypes.any,
+  children: React.PropTypes.node.isRequired,
+  onPress: React.PropTypes.func.isRequired,
 };
 
 export default Button;

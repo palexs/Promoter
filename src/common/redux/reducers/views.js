@@ -9,7 +9,7 @@ const views = (state = initialState, action) => {
     // can't enter if you are already inside
     if (state.currentView !== action.currentView) {
       return Object.assign({}, state, {
-        currentView:  action.currentView,
+        currentView: action.currentView,
       });
     }
     return state;
@@ -18,7 +18,7 @@ const views = (state = initialState, action) => {
     // can't leave if you aren't already inside
     if (state.currentView === action.currentView) {
       return Object.assign({}, state, {
-        currentView:  action.currentView,
+        currentView: action.currentView,
       });
     }
     return state;
@@ -27,7 +27,7 @@ const views = (state = initialState, action) => {
       // can't enter if you are already inside
       if (state.currentView !== action.currentView) {
         return Object.assign({}, state, {
-          currentView:  action.currentView,
+          currentView: action.currentView,
         });
       }
       return state;
@@ -36,7 +36,7 @@ const views = (state = initialState, action) => {
       // can't leave if you aren't already inside
       if (state.currentView === action.currentView) {
         return Object.assign({}, state, {
-          currentView:  action.currentView,
+          currentView: action.currentView,
         });
       }
       return state;
